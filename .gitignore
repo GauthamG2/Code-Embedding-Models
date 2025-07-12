@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+env/
+*.env
+
+# System/editor files
+.DS_Store
+.vscode/
+*.log
+*.swp
+
+# Ignore folders with large files
+outputs/
+models/
+llama.cpp/
+
+# Data archive files (but allow datasets in data/)
+*.zip
+*.tar.gz
+*.7z
